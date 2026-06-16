@@ -19,4 +19,9 @@ The project helps understand customer purchasing behavior, sales performance, pr
 <h2>Getting Started</h2>
 <ul>
 <li>Clone the repository:</li>
+
+```bash
+git clone https://github.com/BorshaDevi/sql-retail-sale_analysis
+```
+
 </ul>
