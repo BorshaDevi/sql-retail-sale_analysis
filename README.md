@@ -5,6 +5,9 @@ The project helps understand customer purchasing behavior, sales performance, pr
 <hr></hr>
 
 <h2>Objectives</h2>
-<al>
-<li></li>
-</al>
+<ol>
+<li><strong>Set up a retail sales database:</strong>Create and populate a retail sales database with the provided sales data.</li>
+<li><strong>Data Cleaning: </strong>Identify and remove any records with missing or null values.</li>
+<li><strong>Exploratory Data Analysis (EDA):</strong> Perform basic exploratory data analysis to understand the dataset.</li>
+<li><strong>Business Analysis:</strong>Use SQL to answer specific business questions and derive insights from the sales data.</li>
+</ol>
