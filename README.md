@@ -16,13 +16,15 @@ The project helps understand customer purchasing behavior, sales performance, pr
 <h3>1. Database Setup</h3>
 
 <h2>Project Structure</h2>
+
+```
 Sql-Retail-Sale/
 │
 ├── README.md
 ├── Retail sale.sql
 ├── SQL - Retail Sales Analysis_utf .csv
 
-
+```
 <h2>Getting Started</h2>
 <ul>
 <li>Clone the repository:</li>
