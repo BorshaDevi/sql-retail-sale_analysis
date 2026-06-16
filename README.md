@@ -15,6 +15,17 @@ The project helps understand customer purchasing behavior, sales performance, pr
 <h2>Database Setup,Data Cleaning & Business Problem Solving using SQL</h2>
 <h3>1. Database Setup</h3>
 
+
+<h2>Getting Started</h2>
+<ul>
+<li>Clone the repository:</li>
+
+```bash
+git clone https://github.com/BorshaDevi/sql-retail-sale_analysis
+```
+
+</ul>
+
 <h2>Project Structure</h2>
 
 ```
@@ -25,12 +36,7 @@ Sql-Retail-Sale/
 ├── SQL - Retail Sales Analysis_utf .csv
 
 ```
-<h2>Getting Started</h2>
+<h2>Requirements</h2>
 <ul>
-<li>Clone the repository:</li>
-
-```bash
-git clone https://github.com/BorshaDevi/sql-retail-sale_analysis
-```
-
+<li><strong>SQL Databases:</strong> PostgreSQL (pgAdmin4)</li>
 </ul>
