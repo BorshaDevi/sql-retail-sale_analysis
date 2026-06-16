@@ -14,7 +14,28 @@ The project helps understand customer purchasing behavior, sales performance, pr
 
 <h2>Database Setup,Data Cleaning & Business Problem Solving using SQL</h2>
 <h3>1. Database Setup</h3>
+<ul>
+<li><strong>Database Creation:</strong>The project starts by creating a database named<code>sql_Retail_sales_Analysis<code></li>
+<li><strong></strong>A table named <code>retail_table</code>is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (cogs), and total sale amount.</li>
+</ul>
 
+```
+Create Table retail_table
+(     
+    transactions_id INT PRIMARY KEY	,	
+    sale_date DATE,	
+    sale_time TIME,	
+    customer_id INT,	
+    gender VARCHAR(20),	
+    age	SMALLINT,
+    category VARCHAR (50),	
+    quantity INT,	
+    price_per_unit	FLOAT,
+    cogs FLOAT,	
+    total_sale FLOAT
+);
+
+```
 
 <h2>Getting Started</h2>
 <ul>
