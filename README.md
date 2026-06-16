@@ -11,3 +11,6 @@ The project helps understand customer purchasing behavior, sales performance, pr
 <li><strong>Exploratory Data Analysis (EDA):</strong> Perform basic exploratory data analysis to understand the dataset.</li>
 <li><strong>Business Analysis:</strong>Use SQL to answer specific business questions and derive insights from the sales data.</li>
 </ol>
+
+<h2>Database Setup,Data Cleaning & Business Problem Solving using SQL</h2>
+<h3>Database Setup</h3>
