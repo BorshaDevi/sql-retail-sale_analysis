@@ -13,4 +13,4 @@ The project helps understand customer purchasing behavior, sales performance, pr
 </ol>
 
 <h2>Database Setup,Data Cleaning & Business Problem Solving using SQL</h2>
-<h3>Database Setup</h3>
+<h3>1. Database Setup</h3>
