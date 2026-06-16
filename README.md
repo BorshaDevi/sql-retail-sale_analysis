@@ -40,3 +40,9 @@ Sql-Retail-Sale/
 <ul>
 <li><strong>SQL Databases:</strong> PostgreSQL (pgAdmin4)</li>
 </ul>
+
+<h2>Author</h2>
+<p>
+<strong>Borsha Devi</strong><br>
+Aspiring Data Analyst | SQL | Python | Data Visualization
+</p>
