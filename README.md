@@ -6,7 +6,7 @@ The project helps understand customer purchasing behavior, sales performance, pr
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 1. **Set up a retail sales database:** Create and populate a retail sales database with the provided sales data.  
 2. **Data Cleaning:** Identify and remove records with missing or null values.  
@@ -15,7 +15,7 @@ The project helps understand customer purchasing behavior, sales performance, pr
 
 ---
 
-## 🗄️ Database Setup, Data Cleaning & Business Problem Solving using SQL
+##  Database Setup, Data Cleaning & Business Problem Solving using SQL
 
 ### 1. Database Setup
 
@@ -39,16 +39,17 @@ CREATE TABLE retail_table (
     cogs FLOAT,
     total_sale FLOAT
 );
+```
 
+<hr></hr>
 <h2>Getting Started</h2>
 <ul>
 <li>Clone the repository:</li>
+</ul>
 
 ```bash
-git clone https://github.com/BorshaDevi/sql-retail-sale_analysis
+ git clone https://github.com/BorshaDevi/sql-retail-sale_analysis
 ```
-
-</ul>
 
 <h2>Project Structure</h2>
 
