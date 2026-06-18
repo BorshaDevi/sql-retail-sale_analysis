@@ -41,6 +41,62 @@ CREATE TABLE retail_table (
 );
 ```
 
+### 2. Data Exploration & Cleaning
+- **Count Record:** 
+  Determine total number of records  in the dataset using <code>COUNT</code> function.
+- **Check Null Value:**
+  Checked for NULL values in the dataset using the <code>WHERE</code> clause and <code>IS NULL</code> condition.
+- **Delete Null Value:**  
+  Removed rows containing NULL values using the <code>DELETE</code> statement.  
+
+```sql
+SELECT 
+COUNT(*) 
+FROM retail_table
+```
+
+```sql
+SELECT * FROM retail_table
+WHERE 
+      transactions_id IS NULL
+      OR
+      sale_date IS NULL
+	  OR
+	  sale_time IS NULL
+	  OR
+	  gender IS NULL
+	  OR
+	  category IS NULL
+	  OR
+	  quantity	IS NULL 
+	  OR
+	  cogs IS NULL
+	  OR
+	  total_sale IS NULL;
+
+```
+
+```sql
+DELETE FROM retail_table
+WHERE 
+      transactions_id IS NULL
+      OR
+      sale_date IS NULL
+	  OR
+	  sale_time IS NULL
+	  OR
+	  gender IS NULL
+	  OR
+	  category IS NULL
+	  OR
+	  quantity	IS NULL 
+	  OR
+	  cogs IS NULL
+	  OR
+	  total_sale IS NULL;
+```
+
+
 <hr></hr>
 <h2>Getting Started</h2>
 <ul>
