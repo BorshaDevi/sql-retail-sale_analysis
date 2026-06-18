@@ -138,7 +138,7 @@ Used date filtering to extract all sales records from 2022-11-05.
 
 ---
 
-### ###  Pro-2: Retrieve Clothing transactions where quantity sold is more than 4 in Nov-2022
+ ###  Pro-2: Retrieve Clothing transactions where quantity sold is more than 4 in Nov-2022
 
 ###  Problem:
 The business wants to identify high-quantity purchases in the Clothing category during November 2022.
@@ -153,7 +153,7 @@ Filtered transactions based on category, quantity, month, and year.
 
 ---
 
-### ###  Pro-3: Calculate total sales for each category
+### Pro-3: Calculate total sales for each category
 
 ###  Problem:
 The company needs to compare revenue performance across different product categories.
@@ -167,7 +167,7 @@ Grouped sales data by category and calculated total revenue.
 
 ---
 
-### ###  Pro-4: Find average age of customers who purchased items from 'Beauty' category
+###  Pro-4: Find average age of customers who purchased items from 'Beauty' category
 
 ###  Problem:
 The business wants to understand customer demographics for Beauty products.
@@ -181,7 +181,7 @@ Calculated the average customer age for Beauty category buyers.
 
 ---
 
-### ###  Pro-5: Find transactions where total_sale is greater than 1000
+###  Pro-5: Find transactions where total_sale is greater than 1000
 
 ###  Problem:
 The company wants to identify high-value transactions.
@@ -194,7 +194,7 @@ Filtered transactions based on total sales amount.
 
 ---
 
-### ###  Pro-6: Find number of transactions made by each gender in each category
+###  Pro-6: Find number of transactions made by each gender in each category
 
 ###  Problem:
 The business wants to analyze purchasing behavior across gender and product categories.
@@ -208,7 +208,7 @@ Counted transactions grouped by category and gender.
 
 ---
 
-### ###  Pro-7: Calculate average sale for each month and find best selling month in each year
+###  Pro-7: Calculate average sale for each month and find best selling month in each year
 
 ###  Problem:
 The business wants to identify seasonal sales trends and the best-performing month.
@@ -223,7 +223,7 @@ Calculated monthly average sales and ranked months using window functions.
 
 ---
 
-### ###  Pro-8: Find top 5 customers based on highest total sales
+###  Pro-8: Find top 5 customers based on highest total sales
 
 ###  Problem:
 The company wants to identify the highest-value customers.
@@ -238,7 +238,7 @@ Calculated total customer spending and ranked customers.
 
 ---
 
-### ###  Pro-9: Find number of unique customers who purchased items from each category
+### Pro-9: Find number of unique customers who purchased items from each category
 
 ###  Problem:
 The business wants to measure customer reach for each product category.
@@ -251,7 +251,7 @@ Counted unique customers per category.
 
 ---
 
-### ###  Pro-10: Create each shift and number of orders
+### Pro-10: Create each shift and number of orders
 
 ###  Problem:
 The business wants to understand order patterns during different times of the day.
