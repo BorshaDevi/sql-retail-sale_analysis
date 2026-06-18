@@ -124,6 +124,145 @@ WHERE
 
 ### 3. Data Analysis and Business Problem Solving
 
+## Pro-1: Retrieve all columns for sales made on '2022-11-05'
+
+### Problem:
+The business wants to review all transactions that happened on a specific date.
+
+### Solution:
+Used date filtering to extract all sales records from 2022-11-05.
+
+### SQL Concept:
+- WHERE clause
+- Date filtering
+
+---
+
+## Pro-2: Retrieve Clothing transactions where quantity sold is more than 4 in Nov-2022
+
+### Problem:
+The business wants to identify high-quantity purchases in the Clothing category during November 2022.
+
+### Solution:
+Filtered transactions based on category, quantity, month, and year.
+
+### SQL Concept:
+- Filtering
+- EXTRACT()
+- Multiple conditions
+
+---
+
+## Pro-3: Calculate total sales for each category
+
+### Problem:
+The company needs to compare revenue performance across different product categories.
+
+### Solution:
+Grouped sales data by category and calculated total revenue.
+
+### SQL Concept:
+- SUM()
+- GROUP BY
+
+---
+
+## Pro-4: Find average age of customers who purchased items from 'Beauty' category
+
+### Problem:
+The business wants to understand customer demographics for Beauty products.
+
+### Solution:
+Calculated the average customer age for Beauty category buyers.
+
+### SQL Concept:
+- AVG()
+- WHERE filtering
+
+---
+
+## Pro-5: Find transactions where total_sale is greater than 1000
+
+### Problem:
+The company wants to identify high-value transactions.
+
+### Solution:
+Filtered transactions based on total sales amount.
+
+### SQL Concept:
+- Conditional filtering
+
+---
+
+## Pro-6: Find number of transactions made by each gender in each category
+
+### Problem:
+The business wants to analyze purchasing behavior across gender and product categories.
+
+### Solution:
+Counted transactions grouped by category and gender.
+
+### SQL Concept:
+- COUNT()
+- GROUP BY
+
+---
+
+## Pro-7: Calculate average sale for each month and find best selling month in each year
+
+### Problem:
+The business wants to identify seasonal sales trends and the best-performing month.
+
+### Solution:
+Calculated monthly average sales and ranked months using window functions.
+
+### SQL Concept:
+- RANK()
+- Window Function
+- Aggregation
+
+---
+
+## Pro-8: Find top 5 customers based on highest total sales
+
+### Problem:
+The company wants to identify the highest-value customers.
+
+### Solution:
+Calculated total customer spending and ranked customers.
+
+### SQL Concept:
+- SUM()
+- ORDER BY
+- LIMIT
+
+---
+
+## Pro-9: Find number of unique customers who purchased items from each category
+
+### Problem:
+The business wants to measure customer reach for each product category.
+
+### Solution:
+Counted unique customers per category.
+
+### SQL Concept:
+- COUNT(DISTINCT)
+
+---
+
+## Pro-10: Create each shift and number of orders
+
+### Problem:
+The business wants to understand order patterns during different times of the day.
+
+### Solution:
+Created Morning, Afternoon, and Evening shifts based on sales time.
+
+### SQL Concept:
+- CTE
+- CASE Statement
+- EXTRACT()
 
 
 <hr></hr>
