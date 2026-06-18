@@ -78,11 +78,11 @@ WHERE
 
 -- Data Analysis or Business key problems and answers
 
--- pro-1: Write a SQL query to retrieve all columns for sales made on '2022-11-05' 
+-- pro-1: Retrieve all columns for sales made on '2022-11-05' 
 SELECT * FROM retail_table
 WHERE sale_date ='2022-11-05'
 
--- pro-2: Write a SQL query to retrieve all transactions where the category is 'Clothing' 
+-- pro-2: Retrieve all transactions where the category is 'Clothing' 
 -- and the quantity sold is more than 4 in the month of Nov-2022
 
 SELECT *
@@ -98,25 +98,25 @@ AND EXTRACT (YEAR FROM sale_date)=2022
 -- AND TO_CHAR(sale_date , 'YYYY-MM')='2022-11' 
 -- GROUP BY 1
 
--- pro-3: Write a SQL query to calculate the total sales (total_sales) for each category.
+-- pro-3: Calculate the total sales (total_sales) for each category.
 SELECT category ,
 SUM(total_sale) as category_total_sale,
 COUNT(quantity)
 FROM retail_table
 GROUP BY category
 
--- pro-4: Write a SQL query to find the average age of customers who purchased items from 
+-- pro-4: Find the average age of customers who purchased items from 
 -- the 'Beauty' category.
 
 SELECT ROUND(AVG(age),2) AS avg_age 
 FROM retail_table
 WHERE category='Beauty'
 
--- pro-5: Write a SQL query to find all transactions  where the total_sale is greater than 1000.
+-- pro-5: Find all transactions  where the total_sale is greater than 1000.
 SELECT * FROM retail_table
 WHERE total_sale >1000
 
--- pro-6: Write a SQL query to find the total number of transactons (transactons_id) made by 
+-- pro-6: Find the total number of transactons (transactons_id) made by 
 -- each gender in each category.
 
 SELECT 
@@ -127,7 +127,7 @@ FROM retail_table
 GROUP BY gender,category
 ORDER BY 1
 
--- pro-7: Write a SQL query to calculate the average sale for each month.Find out best selling month in each year.
+-- pro-7: Calculate the average sale for each month.Find out best selling month in each year.
 SELECT
 year,
 month,
@@ -145,7 +145,7 @@ GROUP BY 1,2
 WHERE rank=1
 -- ORDER BY 1,3 DESC
 
--- pro-8: Write a SQl query to find the top 5 customers based on the highest total sales.
+-- pro-8: Find the top 5 customers based on the highest total sales.
 SELECT 
 customer_id,
 SUM(total_sale)as total_sale_sum
@@ -169,13 +169,13 @@ LIMIT 5
 -- )
 -- WHERE rank<=5
 
--- pro-9:Write a SQl query to find the number of unique customers who purchased items from each category.
+-- pro-9:Find the number of unique customers who purchased items from each category.
 SELECT category, 
 COUNT(DISTINCT customer_id) as unique_cst
 FROM retail_table
 GROUP BY 1
 
--- pro-10:Write a SQL query to create each shift and number of orders 
+-- pro-10:Create each shift and number of orders 
 -- (Example Morning<12,afternoon between 12 & 17 , Evening >17)
 
 WITH hourly_sale 
