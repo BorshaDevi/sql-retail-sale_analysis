@@ -58,7 +58,7 @@ WHERE
 	  OR
 	  total_sale IS NULL;
 
--- Data Explaration
+-- Data Exploration
 
 -- How many sales we have?
 SELECT COUNT(*)  as total_sale FROM retail_table

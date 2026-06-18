@@ -42,12 +42,15 @@ CREATE TABLE retail_table (
 ```
 
 ### 2. Data Exploration & Cleaning
+
+<h4>Cleaning</h4>
+
 - **Count Record:** 
   Determine total number of records  in the dataset using <code>COUNT</code> function.
 
 - **Check Null Value:**
   Checked for NULL values in the dataset using the <code>WHERE</code> clause and <code>IS NULL</code> condition.
-  
+
 - **Delete Null Value:**  
   Removed rows containing NULL values using the <code>DELETE</code> statement and <code>IS NULL</code> condition.  
 
@@ -98,6 +101,7 @@ WHERE
 	  total_sale IS NULL;
 ```
 
+<h4>Data Exploration</h4>
 
 <hr></hr>
 <h2>Getting Started</h2>
