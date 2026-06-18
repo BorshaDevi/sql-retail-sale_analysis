@@ -17,11 +17,27 @@ FROM retail_table
 LIMIT 10
 ;
 
+
+-- Data Exploration
+
+-- How many sales we have?
+SELECT COUNT(*)  as total_sale FROM retail_table
+
+-- How many unique customers we have?
+SELECT COUNT(DISTINCT customer_id) as unique_customers FROM retail_table
+
+-- How many unique category we have?
+
+SELECT COUNT(DISTINCT category) as category FROM retail_table
+
+SELECT DISTINCT category as category FROM retail_table
+
+
+-- Data cleaning
 SELECT 
 COUNT(*) 
 FROM retail_table
 
--- Data cleaning
 SELECT * FROM retail_table
 WHERE 
       transactions_id IS NULL
@@ -58,19 +74,7 @@ WHERE
 	  OR
 	  total_sale IS NULL;
 
--- Data Exploration
 
--- How many sales we have?
-SELECT COUNT(*)  as total_sale FROM retail_table
-
--- How many uninqe customers we have?
-SELECT COUNT(DISTINCT customer_id) as uninqe_customers FROM retail_table
-
--- How many uninqe category we have?
-
-SELECT COUNT(DISTINCT category) as category FROM retail_table
-
-SELECT DISTINCT category as category FROM retail_table
 
 -- Data Analysis or Business key problems and answers
 

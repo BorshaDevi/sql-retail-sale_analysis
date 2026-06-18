@@ -43,7 +43,28 @@ CREATE TABLE retail_table (
 
 ### 2. Data Exploration & Cleaning
 
-<h4>Cleaning</h4>
+<h3>Data Exploration</h3>
+
+- **Total Sales Count Record check:**
+  Determine total number sales  of records  in the dataset using <code>COUNT</code> function.
+
+- **Unique Customer check:**
+  How many customers are unique of record using <code>DISTINCT</code>.
+
+- **Count and Unique Category check:**
+  How many category are unique check and count them using <code>COUNT(DISTINCT category)</code>.
+
+```sql
+SELECT COUNT(*)  as total_sale FROM retail_table
+```
+```sql
+SELECT COUNT(DISTINCT customer_id) as unique_customers FROM retail_table
+```
+```sql
+SELECT COUNT(DISTINCT category) as category FROM retail_table
+```
+
+<h3>Cleaning</h3>
 
 - **Count Record:** 
   Determine total number of records  in the dataset using <code>COUNT</code> function.
@@ -101,7 +122,7 @@ WHERE
 	  total_sale IS NULL;
 ```
 
-<h4>Data Exploration</h4>
+
 
 <hr></hr>
 <h2>Getting Started</h2>
